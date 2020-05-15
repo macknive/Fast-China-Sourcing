@@ -1,0 +1,242 @@
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.topmargin {
+  margin-top: 25px;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.withbackground {
+  background-image: url('/assets/Rectangle\ 4.png');
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('/assets/Group\ 3605.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.speak {
+  position: absolute;
+  top: 0px;
+  right: 34px;
+}
+
+.nextspeak {
+  right: 73px;
+  top: 15px;
+}
+
+.white {
+  margin-top: -50px;
+  background-color: white;
+}
+
+.pathone {
+  position: absolute;
+  margin-top: 15px;
+}
+
+.navmargin {
+  margin-bottom: 5px;
+}
+
+/*Downloaded from https://www.codeseek.co/mjtweaver/slick-slider-progress-bar-pEkYgQ */
+/**
+ *  Progress Bar
+ */
+ .progress {
+  display: block;
+  width: 100%;
+  height: 2px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  background-image: linear-gradient(to right, red, red);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: background-size .4s ease-in-out;
+  color: red;
+}
+
+/**
+ *  Demo Styles from the Slick Slider
+ *  website
+ */
+
+
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+
+
+.ellipse {
+  margin-bottom: 15px;
+}
+
+.slick-next:before, .slick-prev:before {
+  color: red !important;
+}
+
+.sliderimage {
+  margin: 0 auto;
+}
+
+.col {
+  font-size: 12px;
+}
+
+.newslider {
+  margin: 50px 133px 20px;
+}
+
+.textbelowslider {
+  margin-bottom: 60px;
+}
+
+.visitus {
+  background-color: #E0E0E0;
+  text-align: center;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.firstpart {
+  margin-bottom: 230px;
+}
+
+.collapsepart {
+  margin: 0 20%;
+  
+}
+
+.collapsepadding {
+  padding: 15px 0;
+  border-top: 1px solid #E0E0E0;
+  text-align: left;
+}
+
+.droparrow {
+  float: right;
+  margin-top: 10px;
+}
+
+.testimonial {
+  background-color: #212121;
+  color: #565656;
+}
+
+.footerpart {
+  background-color: #1A1A1A;
+  color: white;
+}
+
+.footermargin {
+  margin: 0 10%;
+}
+
+.ellipse {
+  background-color: white;
+}
+
+.slick-dots {
+  top:-172px;
+}
+
+.slick-dots li {
+  margin: 0 95px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: red !important;
+}
+
+<!-- language: lang-css -->
+
+.slick-dots li img:nth-child(1) {
+    display: block;
+}
+
+.slick-dots li img:nth-child(2) {
+    display: none;
+}
+
+.slick-dots li.slick-active img:nth-child(1) {
+    display: none;
+}
+
+.slick-dots li.slick-active img:nth-child(2) {
+    display: block;
+}
+
+.slick-active {
+  color: red;
+}
+
+.slider-current {
+  color: red;
+}
+
+@media only screen and (max-width: 1199px) {
+  .slick-dots li {
+    margin: 0 73px !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .slick-dots li {
+    margin: 0 43px !important;
+  }
+  .slick-dots {
+    margin-top: -36px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .slick-dots li {
+    margin: 0 19px !important;
+  }
+  .slick-dots {
+    margin-top: -54px !important;
+  }
+}
+
+@media only screen and (max-width: 503px) {
+  .slick-dots li {
+    margin: 0 19px !important;
+  }
+  .slick-dots {
+    margin-top: -54px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .slick-dots li {
+    margin: 0 19px !important;
+  }
+  .slick-dots {
+    margin-top: -109px !important;
+  }
+  .newslider {
+    margin: 19px 55px;
+  }
+}
